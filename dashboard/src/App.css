@@ -1,0 +1,72 @@
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 2.5rem;
+}
+
+.panel {
+  border: 1px solid #d9e1ea;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.status-banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #46627f;
+}
+
+h1 {
+  margin: 0.3rem 0;
+  font-size: 1.5rem;
+  color: #0f172a;
+}
+
+.risk-chip {
+  color: #fff;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.sensor-card {
+  padding: 1rem;
+}
+
+.sensor-label {
+  margin: 0;
+  color: #46627f;
+  font-size: 0.82rem;
+}
+
+.sensor-value {
+  margin: 0.5rem 0 0;
+  color: #0f172a;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.footnote {
+  margin-top: 1rem;
+  color: #334155;
+  font-size: 0.9rem;
+}

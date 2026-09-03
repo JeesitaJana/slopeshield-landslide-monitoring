@@ -141,3 +141,20 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Firebase/service credentials
+serviceAccount*.json
+firebase-admin*.json
+*.pem
+*.key
+
+# Firmware/build artifacts
+.pio/
+*.elf
+*.bin
+*.map
+
+# Local IDE/system
+.vscode/
+.idea/
+.DS_Store
